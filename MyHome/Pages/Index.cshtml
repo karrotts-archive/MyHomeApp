@@ -1,0 +1,26 @@
+﻿@page "~/"
+@model MyHome.Pages.TestModel
+@{
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MyHome</title>
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
+    <link href="css/site.css" rel="stylesheet" />
+    <link href="MyHome.styles.css" rel="stylesheet" />
+</head>
+<body onload="initializeContent()">
+    <main>
+        <div id="main-image" class="main-image"></div>
+        <div class="main-time-block">
+            <h1 id="main-time" class="main-time"></h1>
+            <h2 id="main-weather" class="main-weather">69&#176;</h2>
+        </div>
+    </main>
+    <script src="site.js"></script>
+</body>
+</html>

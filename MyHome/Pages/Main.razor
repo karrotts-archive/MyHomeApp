@@ -1,0 +1,13 @@
+﻿@using System.Threading.Tasks;
+@using System.Threading;
+@implements IDisposable
+
+
+@code {
+    CancellationTokenSource source = new CancellationTokenSource();
+
+    void IDisposable.Dispose()
+    {
+        source.Cancel();
+    }
+}
