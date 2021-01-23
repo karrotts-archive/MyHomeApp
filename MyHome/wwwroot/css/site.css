@@ -48,7 +48,7 @@ a, .btn-link {
 }
 
 .main-image-block {
-    filter: brightness(90%);
+    filter: brightness(85%);
     transition: filter 1s;
     transition-timing-function: ease-in-out;
     width: 100vw;
@@ -71,6 +71,7 @@ a, .btn-link {
     left: 80px;
     display: inline-block;
     color: white;
+    text-shadow: 1px 1px 1px rgba(40, 40, 40, 0.2);
 }
 
 .main-weather {

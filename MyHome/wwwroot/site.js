@@ -9,7 +9,7 @@ function initializeContent() {
 
     updateTime();
     setInterval(updateTime, refreshRate);
-    setInterval(transitionBackground, refreshRate * 5);
+    setInterval(transitionBackground, refreshRate * 180);
 }
 
 function updateTime() {
