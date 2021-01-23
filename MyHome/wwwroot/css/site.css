@@ -45,13 +45,24 @@ a, .btn-link {
     background-size: cover;
     width: 100vw;
     height: 100vh;
+}
+
+.main-image-block {
     filter: brightness(90%);
+    transition: filter 1s;
+    transition-timing-function: ease-in-out;
+    width: 100vw;
+    height: 100vh;
+}
+
+.main-image-transition {
+    filter: brightness(0%);
 }
 
 .main-time {
     display: inline;
-    font-size: 200px;
-    padding-right: 80px;
+    font-size: 100px;
+    padding-right: 60px;
 }
 
 .main-time-block {
@@ -64,7 +75,7 @@ a, .btn-link {
 
 .main-weather {
     display: inline;
-    font-size: 150px;
+    font-size: 50px;
 }
 
     #blazor-error-ui {
