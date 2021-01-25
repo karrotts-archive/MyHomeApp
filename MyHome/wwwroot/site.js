@@ -7,6 +7,8 @@ function initializeContent() {
     nextImage = preloadImage("https://source.unsplash.com/random?sig=" + Math.random());
     lockTransition = false;
 
+    document.getElementById('main-container').addEventListener("click", ScrollDown);
+
     updateTime();
     setInterval(updateTime, refreshRate);
     setInterval(transitionBackground, refreshRate * 180);
@@ -41,4 +43,12 @@ function updateBackground() {
     document.getElementById('main-image').style.backgroundImage = "url("+ nextImage.src +")";
     document.getElementById('main-image-block').classList.remove("main-image-transition");
     nextImage = preloadImage("https://source.unsplash.com/random?sig=" + Math.random());
+}
+
+
+function ScrollDown() {
+    window.scroll({
+        top: 600,
+        behavior: 'smooth'
+    });
 }

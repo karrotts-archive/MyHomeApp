@@ -7,8 +7,6 @@ html, body {
 
 main {
     position: relative;
-    width: 100vh;
-    height: 100vw;
 }
 
 a, .btn-link {
@@ -67,8 +65,8 @@ a, .btn-link {
 
 .main-time-block {
     position: absolute;
-    top: 78vh;
-    left: 80px;
+    top: 75vh;
+    left: 70px;
     display: inline-block;
     color: white;
     text-shadow: 1px 1px 1px rgba(40, 40, 40, 0.2);
@@ -79,7 +77,13 @@ a, .btn-link {
     font-size: 50px;
 }
 
-    #blazor-error-ui {
+.app-select-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: green;
+}
+
+#blazor-error-ui {
     background: lightyellow;
     bottom: 0;
     box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.2);
