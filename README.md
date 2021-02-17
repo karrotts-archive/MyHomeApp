@@ -1,4 +1,4 @@
-<h1 align="center">MyHomeApp</h1>
+<h1 align="center">MyHomeApp (Active Project)</h1>
   <p align="center">
     Smart Home Controller Hub | ASP.NET | Raspberry Pi
   </p>
