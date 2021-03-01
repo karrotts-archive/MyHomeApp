@@ -4,7 +4,6 @@
   </p>
 </p>
 
-<!-- ABOUT THE PROJECT -->
 ## About The Project
 
 Our homes are becoming smarter with the implementation of simple Wi-Fi connected devices that control aspects of our homes that were not easily controllable in the past. Some of these devices include smart light bulbs, smart thermostats, and even smart refrigerators that tell us when its time to go to the grocery store. Many of these smart home devices have their own application or API for controlling the device.
@@ -22,14 +21,10 @@ My goal of this project is to make a centralized place to control all my smart h
 * [Raspberry Pi v4 Model B](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/)
 * [Arduino Uno](https://store.arduino.cc/usa/arduino-uno-rev3)
 
-<!-- ROADMAP -->
 ## Roadmap
 
 See the [open issues](https://github.com/Karrotts/MyHomeApp/issues) for a list of proposed features (and known issues).
 
-
-
-<!-- CONTRIBUTING -->
 ## Contributing
 
 Any contributions you make are **greatly appreciated**.
@@ -40,7 +35,6 @@ Any contributions you make are **greatly appreciated**.
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-<!-- CONTACT -->
 ## Contact
 
 Wes Miller - [@dev_karrotts](https://twitter.com/dev_karrotts) - wesley.b.miller@outlook.com
