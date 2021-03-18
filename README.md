@@ -6,7 +6,7 @@
 
 ## About The Project
 
-Our homes are becoming smarter with the implementation of simple Wi-Fi connected devices that control aspects of our homes that were not easily controllable in the past. Some of these devices include smart light bulbs, smart thermostats, and even smart refrigerators that tell us when its time to go to the grocery store. Many of these smart home devices have their own application or API for controlling the device.
+Our homes are becoming smarter with the implementation of Wi-Fi connected devices that control aspects of our homes that were not easily controllable in the past. Some of these devices include smart light bulbs, thermostats, and even refrigerators that tell us when its time to go to the grocery store. Many of these smart home devices have their own application or API for controlling the device.
 
 **MY GOAL:**
 My goal of this project is to make a centralized place to control all my smart home devices and to provide useful information to me such as current room temperature, humidity levels, and current news.
